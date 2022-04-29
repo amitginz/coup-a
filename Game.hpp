@@ -9,9 +9,9 @@ private:
 public:
     Game(/* args */);
     ~Game();
-    string turn();
-    vector<string> players();
-    string winner();
+    static string turn();
+    static vector<string> players();
+    static string winner();
 };
 
     

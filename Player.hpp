@@ -19,8 +19,8 @@ public:
     void income();
     void foreign_aid();
     void coup(const Player &pl);
-    double coins();
-    string role();
+    static double coins();
+    static string role();
 };
 }
 
